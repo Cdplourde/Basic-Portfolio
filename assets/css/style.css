@@ -24,6 +24,11 @@ hr {
     background-image: linear-gradient(to right, #cccccc, #8a8a8a, #cccccc);
 }
 
+h1 {
+    font-size: 27px;
+    color: #4aaaa5;
+}
+
 /* Top nav bar */
 
 #banner {
@@ -40,10 +45,6 @@ nav {
     position: relative;
     z-index: 2;
     margin-bottom: 40px;
-}
-
-h1 {
-    font-size: 27px;
 }
 
 nav h1 {
@@ -76,9 +77,9 @@ nav a:hover {
     padding-left: 20px;
 }
 
-/* About Me section*/
+/*Main content area*/
 
-#about {
+.body {
     float: left;
     background-color: white;
     margin: 0px 40px 40px 0px;
@@ -87,19 +88,53 @@ nav a:hover {
     border: 1px solid #dddddd;
 }
 
-#about p {
+.body p {
     letter-spacing: 0px;
 }
 
-#about h1 {
-    color: #4aaaa5;
-}
+/* About Me section */
 
 #about img {
     width: 200px;
     height: 150px;
     float: left;
     padding: 13px 10px 0px 0px;
+}
+
+/* Contact section */
+
+#contact p {
+    margin-bottom: 0px;
+}
+
+#contact input {
+    width: 574px;
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#contact textarea {
+    height: 180px;
+    width: 582px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#contact button {
+    background-color: #4aaaa5;
+    color: white; 
+    border: none;
+    width: 100px;
+    height: 35px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+input::-webkit-input-placeholder {
+    opacity: 0.6;
 }
 
 /* Connections section */
