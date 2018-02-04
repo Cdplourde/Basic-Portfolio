@@ -101,10 +101,27 @@ nav a:hover {
     padding: 13px 10px 0px 0px;
 }
 
+#about p {
+    margin-bottom: 30px;
+}
+
+#about p:first-of-type {
+    margin-bottom: -10px;
+}
+
+#about a {
+    color: #AB0520;
+    text-decoration: none;
+}
+
+#about a:hover {
+    color: #C55063;
+}
+
 /* Contact section */
 
 #contact p {
-    margin-bottom: 0px;
+    margin-bottom: 3px;
 }
 
 #contact input {
